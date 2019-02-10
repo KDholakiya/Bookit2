@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>seatSelection</class>
+ <widget class="QWidget" name="seatSelection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>557</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="header">
+     <item>
+      <widget class="QLabel" name="Movie">
+       <property name="font">
+        <font>
+         <family>MS PGothic</family>
+         <pointsize>17</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>Movie Label</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Carnival">
+     <item>
+      <widget class="QLabel" name="CarnivalLabel">
+       <property name="text">
+        <string>Carnival Cinema</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="CarnivalPrice">
+       <property name="text">
+        <string>100/-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="CarnivalDate"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="CarnivalTime">
+       <item>
+        <property name="text">
+         <string>8 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 PM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CarnivalGo">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Inox">
+     <item>
+      <widget class="QLabel" name="InoxLabel">
+       <property name="text">
+        <string>INOX</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="InoxPrice">
+       <property name="text">
+        <string>150/-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="InoxDate"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="InoxTime">
+       <item>
+        <property name="text">
+         <string>8 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 PM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="InoxGo">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Galaxy">
+     <item>
+      <widget class="QLabel" name="GalaxyLabel">
+       <property name="text">
+        <string>Galaxy Cinema</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="GalaxyPrice">
+       <property name="text">
+        <string>110/-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="GalaxyDate"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="GalaxyTime">
+       <item>
+        <property name="text">
+         <string>8 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 PM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="GalaxyGo">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Cinepolis">
+     <item>
+      <widget class="QLabel" name="CinepolisLabel">
+       <property name="text">
+        <string>Cinepolis</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="CinepolisPrice">
+       <property name="text">
+        <string>520/-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="CinepolisDate"/>
+     </item>
+     <item>
+      <widget class="QComboBox" name="CinepolisTime">
+       <item>
+        <property name="text">
+         <string>8 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 AM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8 PM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11 PM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CinepolisGo">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Ignored">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

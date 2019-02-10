@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/img/icons/information-button.png</file>
+        <file>assets/img/icons/004-Minus-512.png</file>
+        <file>assets/img/icons/clapperboard.png</file>
+        <file>assets/img/icons/election-event-on-a-calendar-with-star-symbol.png</file>
+        <file>assets/img/icons/expand_4-512.png</file>
+        <file>assets/img/icons/github-logo.png</file>
+        <file>assets/img/icons/icons_exit2-512.png</file>
+        <file>assets/img/icons/if_minimize_2561470.png</file>
+        <file>assets/img/icons/linkedin.png</file>
+        <file>assets/img/icons/minus.png</file>
+        <file>assets/img/icons/plus.png</file>
+        <file>assets/img/icons/Previous_2-512.png</file>
+        <file>assets/img/icons/runer-silhouette-running-fast.png</file>
+        <file>assets/img/icons/theatre-masks.png</file>
+        <file>assets/img/icons/ticket.png</file>
+        <file>assets/img/icons/trending.png</file>
+        <file>assets/img/icons/twitter.png</file>
+        <file>assets/img/icons/Untitled-2.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Mumbai Juniorthon",
+    "date": "23 Dec",
+    "topic": "6hrs Marathon",
+    "synopsis": "Mumbai JUNIORTHON is the first ever & largest annual running event for children & junior athletes in Mumbai and is successfully hosting the fourth season this year. JUNIORTHON is all about children running towards a healthier future and supporting a good cause.The goal of JUNIORTHON is to encourage outdoor activities and physical fitness amongst children by giving them an opportunity to accomplish the goal of running. The event is scheduled on 23rd December 2018 at MMRDA Grounds BKC, 06.00 AM onwards for children in the age group of 5 to 15 years.",
+    "venue": "R2 Grounds, MMRDA: Mumbai",
+    "language": "English, Hindi",
+    "price": "599"
+  },
+  {
+    "name": "Mumbai Marathon 10K",
+    "date": "21 Oct",
+    "topic": "Marathon",
+    "synopsis": "Experience an amazing run along the coastal line of Bandra. Running along the sea will provide Runners a perfect Natural Ambience.All Timed Run Participants will get Timed Bib, T-Shirt, Medal, Banana, Water, Breakfast & e-Timing Certificate. Timed Run Categories - 5 km (Rs.799) and 10 km (Rs.999)Non-Timed Run Category - 5 km (Rs.499) - Participant will not get any T-Shirt and Run will be Non-Timed Run. All Non-Timed Participants will get Bib, Medal, Banana, Water & Breakfast.",
+    "venue": "Bandra Fort: Mumbai",
+    "language": "English, Hindi, Marathi",
+    "price": "499"
+  },
+  {
+    "name": "International Health, Sports and Fitness Expo",
+    "date": "12 Oct Onwards",
+    "topic": "Mixed martial arts ",
+    "synopsis": "Catering to diverse categories of age, capability, and strength, IHFF will draw athletes, fitness enthusiasts, businesses and spectators from around the globe. IHFF 2018 is sure to motivate and inspire! It provides the perfect landscape for individuals of all ages to celebrate strength, health, sports and life. If your market is individuals seeking to improve strength, health, and life, IHFF is the perfect platform for you!",
+    "venue": "Bombay Convention & Exhibition Centre: Mumbai",
+    "language": "English ",
+    "price": "1000"
+  },
+  {
+    "name": "Kumite One Fight League",
+    "date": "29 Sep",
+    "topic": "4hrs Mixed martial arts",
+    "synopsis": "A full contact high intensity and thrilling sport where the fighters skills are tested on key attributes, like, Focus, Speed, Balance, and Endurance. An exciting fusion of Martial Arts, Karate, Kung-Fu, Sumo, Sando, Ninji-Tsu, Wrestling, Boxing, Marine Core & Muay Thai, KUMITE allows realistic nail-biting full contact combat under stimulated scenarios, recreated in the form of copyright sets. Brace yourselves for the world most exciting Fight League, which promises to pack a punch and raise the bar in the field of sports fighting!!",
+    "venue": "Dome @ NSCI, SVP Stadium: Mumbai",
+    "language": "English",
+    "price": "500"
+  },
+  {
+    "name": "Navi Mumbai Let`s Run-Season 2",
+    "date": "02 Dec",
+    "topic": "4hrs Marathon ",
+    "synopsis": "According to the Constitution of India, education is a fundamental right of every child. However, the situation in India is dreadful because girls in many parts are not given the option of attending school. How can education be denied based on gender? When you invest in a girl education, she feeds herself, her children, her community and her nation. Education of a girl child is the first stride towards the wholesome development of a country.",
+    "venue": "Palm Beach Road: Sanpada",
+    "language": "English",
+    "price": "600"
+  },
+  {
+    "name": "SBI Green Marathon (Mumbai)",
+    "date": "28 Oct",
+    "topic": "5hrs Marathon ",
+    "synopsis": "SBI in Collaboration with Radio Mirchi is back with its 2nd season! This year its getting bigger and better by organizing marathons in 15 cities across India.We believe in Sustainability, health, and fitness being a lifestyle that everyone must adapt but at the same time should also contribute towards making the city greener. Being the largest Bank and biggest Radio Station in the country, it is our prime responsibility to care for the environment, society, customers and our employees.",
+    "venue": "JioGarden, BKC: Mumbai",
+    "language": "English",
+    "price": "600"
+  }
+]
