@@ -31,6 +31,10 @@
   <property name="windowTitle">
    <string>BookIt</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/assets/img/icons/Untitled-2.png</normaloff>:/assets/img/icons/Untitled-2.png</iconset>
+  </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <property name="spacing">
     <number>0</number>
@@ -59,6 +63,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

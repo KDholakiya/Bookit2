@@ -1,12 +1,12 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QMessageBox>
 QList<ContentShoecase *> MainWindow::PStack;
 QList<QString> MainWindow::LStack;
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow){
     ui->setupUi(this);
-    QList<QWidget *> widlist={ui->Movies,ui->Events,ui->Plays,ui->Sports,ui->watchList};
-    eventInstaller(widlist);
-    changeShowcase("movies","Trending");
+    eventInstaller({ui->Movies,ui->Events,ui->Plays,ui->Sports,ui->watchList});
+    this->changeCategories("movies");
     shadow->setBlurRadius(4);
     shadow->setOffset(2,2);
     shadow->setColor(QColor("#000"));
@@ -14,22 +14,6 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     this->setWindowTitle("Bookit");
 }
 MainWindow::~MainWindow(){ delete ui; }
-
-bool MainWindow::ShowDetails(QWidget* wid)
-{
-    //show saparate dialog
-    //dialog = new detailsDialog();
-    //dialog->setWid(wid);
-    //dialog->showDialog();
-
-    //show in main window
-    /*
- *  backStack.push_front(ui->widget);
- *  backStack.push_front(wid);
- *  ui->widget->hide();
- *  ui->fullbody->addWidget(wid);
-*/
-}
 
 bool MainWindow::eventFilter(QObject *obj, QEvent *event){
     //check event type
@@ -120,8 +104,7 @@ void MainWindow::on_menubtn_released(){
 }
 
 
-bool MainWindow::on_cats_currentIndexChanged(const QString &arg1)
-{
+bool MainWindow::on_cats_currentIndexChanged(const QString &arg1){
     int index=ui->cats->currentIndex();
     QStringList moviescats={"trending","gujarati","english","hindi"};
     QStringList othersCats={"today","tomorrow","this_weekend","next_weekend"};
@@ -135,6 +118,6 @@ bool MainWindow::on_cats_currentIndexChanged(const QString &arg1)
     changeShowcase(CurrentCase,cat,true);
 }
 
-
-
-
+void MainWindow::on_pushButton_released(){
+    QMessageBox::information(this,"About Me..","HandCrafted By <b>Keval Dholakiya</b> <br/> Copyright © 2018-2019 ");
+}

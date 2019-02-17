@@ -589,8 +589,8 @@ color:rgb(89, 65, 169);
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset>
-                  <normaloff>../BookIt/img/icons/plus.png</normaloff>../BookIt/img/icons/plus.png</iconset>
+                 <iconset resource="res.qrc">
+                  <normaloff>:/assets/img/icons/plus.png</normaloff>:/assets/img/icons/plus.png</iconset>
                 </property>
                 <property name="flat">
                  <bool>true</bool>
@@ -636,8 +636,8 @@ color:rgb(89, 65, 169);
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset>
-                  <normaloff>../BookIt/img/icons/minus.png</normaloff>../BookIt/img/icons/minus.png</iconset>
+                 <iconset resource="res.qrc">
+                  <normaloff>:/assets/img/icons/minus.png</normaloff>:/assets/img/icons/minus.png</iconset>
                 </property>
                 <property name="flat">
                  <bool>true</bool>
@@ -797,6 +797,8 @@ color: rgb(255, 255, 255);</string>
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

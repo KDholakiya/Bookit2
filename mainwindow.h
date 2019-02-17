@@ -28,8 +28,8 @@ private:
     bool changeShowcase(QString what,QString cat,bool fromCat=false);
     static QList<QString> LStack;
 //    detailsDialog *dialog;
-    QString CurrentCase;
-    QString CurrentCat;
+    QString CurrentCase="movies";
+    QString CurrentCat="Trending";
     bool first;
     void changeCategories(QString what);
     void highlightselected(QObject* object);
@@ -41,6 +41,7 @@ protected:
 private slots:
     void on_menubtn_released();
     bool on_cats_currentIndexChanged(const QString &arg1);
+    void on_pushButton_released();
 };
 
 #endif // MAINWINDOW_H
